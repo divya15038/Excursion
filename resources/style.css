@@ -41,4 +41,10 @@ main #vid {
 #travelGuide .img-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/* Announcements */
+#comingSoon p {
+    font-size: 2.375rem;
 }
