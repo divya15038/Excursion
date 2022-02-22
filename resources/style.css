@@ -20,5 +20,25 @@ header p {
     color:aquamarine;
 }
 
+/* Video */
+main #vid {
+    display: flex;
+    justify-content: center;
+}
 
+/* Travel Guide */
+#travelGuide h2 {
+    font-weight: 300;
+    font-size: 2.625rem;
+    margin: 2rem 0;
+}
 
+#travelGuide p {
+    font-size: 1.3125rem;
+    color: gray;
+}
+
+#travelGuide .img-container {
+    display: flex;
+    justify-content: center;
+}
