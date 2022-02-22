@@ -20,6 +20,14 @@ header p, footer p {
     color:aquamarine;
 }
 
+@media only screen and (max-width: 620px){
+    header h1 {
+        font-size: 2.5rem;
+        line-height: 0.85;
+        font-weight: 600;
+    }
+}
+
 /* Video */
 main #vid {
     display: flex;
@@ -44,9 +52,43 @@ main #vid {
     margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 915px){
+    #travelGuide img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #travelGuide h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+
+    #travelGuide p {
+        font-size: 1rem;
+    }
+}
+
 /* Announcements */
+
 #comingSoon p {
     font-size: 2.375rem;
+}
+
+@media only screen and (max-width: 480px) {
+    #comingSoon img {
+        height: 4.5rem;
+        width: auto;
+    }
+
+    #comingSoon p {
+        margin-top: 0.75rem;
+        font-size: 1.65rem;
+        margin-bottom: 2rem;
+        font-weight: 550;
+    }
 }
 
 /* Footer */
@@ -55,4 +97,10 @@ footer .copyright {
     text-align: right;
     text-decoration: none;
     font-size: 0.85rem;
+}
+
+@media only screen and (max-width: 480px) {
+    footer p {
+        margin: 0.75rem;
+    }
 }
